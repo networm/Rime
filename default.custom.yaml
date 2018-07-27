@@ -1,0 +1,15 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.11.1
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Jul 26 07:22:19 2018"
+  rime_version: 1.3.0
+patch:
+  "ascii_composer/switch_key":
+    Shift_L: noop
+    Shift_R: noop
+  schema_list:
+    - {schema: wubi86}
+  "key_binder/bindings":
+    - { when: has_menu, accept: semicolon, send: 2 }
+    - { when: has_menu, accept: apostrophe, send: 3 }

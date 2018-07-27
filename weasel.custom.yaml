@@ -1,0 +1,30 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.11.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sun Apr 15 15:16:28 2018"
+  rime_version: 1.3.1
+patch:
+  preset_color_schemes/metro:
+    author: "nameoverflow <i@hcyue.me>"
+    back_color: 0xffffff
+    border_color: 0x444444
+    hilited_back_color: 0xffffff
+    hilited_candidate_back_color: 0x444444
+    hilited_candidate_text_color: 0xffffff
+    hilited_text_color: 0x000000
+    name: "metro"
+    text_color: 0x000000
+  style/layout/border: 2
+  style/layout/margin_x: 15
+  style/layout/margin_y: 10
+  style/layout/hilite_padding: 15
+  style/layout/hilite_spacing: 15
+  style/layout/spacing: 15
+  style/layout/candidate_spacing: 30
+  style/layout/round_corner: 0
+  style/corner_radius: 0
+  style/font_point: 13
+  style/color_scheme: metro
+  style/horizontal: true
+  style/inline_preedit: true
