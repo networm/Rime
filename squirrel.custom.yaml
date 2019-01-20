@@ -1,0 +1,7 @@
+patch:
+  app_options:
+    {}
+  style:
+    color_scheme: mojave_dark
+    horizontal: true
+    inline_preedit: true
